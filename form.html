@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+  <head>
+    <title>User Registration Form</title>
+    <style>
+      body {
+        background-color: #f3e8ff;
+        font-family: Arial, sans-serif;
+        color: #2e1065;
+      }
+
+      header h1 {
+        color: #5b21b6;
+        text-align: center;
+      }
+
+      form label {
+        font-weight: bold;
+        color: #6b21a8;
+      }
+
+      input,
+      select,
+      button {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #c4b5fd;
+      }
+
+      button {
+        background-color: #d8b4fe;
+        color: #2e1065;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #c4b5fd;
+      }
+
+      footer {
+        text-align: center;
+        font-weight: bold;
+        background-color: #d8b4fe;
+        padding: 10px;
+      }
+
+      a {
+        color: #4c1d95;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #6d28d9;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="100%">
+      <tr>
+        <td width="10%"></td>
+        <td width="80%">
+          <header>
+            <br /><br /><br />
+            <h1>User Registration Form</h1>
+          </header>
+
+          <form>
+            <label>First Name</label><br />
+            <input
+              type="text"
+              name="fname"
+              placeholder="Enter your first name"
+              style="width: 100%"
+            /><br /><br />
+
+            <label>Last Name</label><br />
+            <input
+              type="text"
+              name="lname"
+              placeholder="Enter your last name"
+              style="width: 100%"
+            /><br /><br />
+
+            <label>Date of Birth</label><br />
+            <input type="date" name="dob" style="width: 100%" /><br /><br />
+
+            <label>Email</label><br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              style="width: 100%"
+            /><br /><br />
+
+            <label>Password</label><br />
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+              style="width: 100%"
+            /><br /><br />
+
+            <label>Gender</label><br />
+            <input type="radio" name="gender" value="Male" /> Male<br />
+            <input type="radio" name="gender" value="Female" /> Female<br />
+            <input type="radio" name="gender" value="Others" />
+            Others<br /><br />
+
+            <label>Skills</label><br />
+            <select name="skills" style="width: 100%">
+              <option value="" disabled selected>Select your skills</option>
+              <option value="JAVA">JAVA</option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option></select
+            ><br /><br />
+
+            <label>Country</label><br />
+            <select name="country" style="width: 100%">
+              <option value="" disabled selected>Select your country</option>
+              <option value="Nepal">Nepal</option>
+              <option value="USA">USA</option>
+              <option value="Korea">Korea</option>
+              <option value="Japan">Japan</option>
+              <option value="China">China</option></select
+            ><br /><br />
+
+            <input type="checkbox" name="agree" /> I agree to the terms and
+            conditions<br /><br />
+
+            <button type="submit" style="width: 48%">Submit</button>
+            <button type="reset" style="width: 48%">Clear</button>
+          </form>
+
+          <br /><br />
+
+          <footer>
+            <p>
+              &copy; 2026 Pragati Gurung | All rights reserved<br /><br />
+              <a href="https://instagram.com/">
+                <img src="instagram.svg" height="35" width="35" />
+              </a>
+              <a href="https://facebook.com/">
+                <img src="facebook.png" height="35" width="35" />
+              </a>
+              <a href="https://wa.me/9779786287389">
+                <img src="whatsapp.png" height="35" width="35" />
+              </a>
+            </p>
+          </footer>
+        </td>
+        <td width="10%"></td>
+      </tr>
+    </table>
+  </body>
+</html>
