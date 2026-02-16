@@ -1,3 +1,5 @@
+https://pragatigg1.github.io/MINI-PROJECT/
+
 # Portfolio Mini Project
 
 Simple multi-page student portfolio built with plain HTML and CSS.
